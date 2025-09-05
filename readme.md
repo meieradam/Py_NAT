@@ -1,6 +1,10 @@
 # Setting up PyNAT
 
-## Prep
+---
+
+## Preperation
+
+Before peforming any of the following steps make sure to have the service, sh, and yaml in the directory of your choice.  Preferably in /opt/PyNAT
 
 ---
 
@@ -18,11 +22,15 @@ sudo apt update
 sudo apt install -y yq
 ```
 
+---
+
 #### Make the script executable
 
 ```bash
 chmod +x /path/to/pynat.sh
 ```
+
+---
 
 #### Test it before integration
 
@@ -35,6 +43,8 @@ sudo /path/to/pynat.sh
 ```bash
 sudo iptables -t nat -L -n -v
 ```
+
+---
 
 #### Create the systemd service
 

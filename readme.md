@@ -1,4 +1,4 @@
-# Perform an update to make sure packages are in order
+## Perform an update to make sure packages are in order
 sudo apt update
 
 # Install yq

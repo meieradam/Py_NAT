@@ -1,10 +1,12 @@
-# Setting up PyNAT
+# Setting up PyNAT / FlackNAT
 
 ---
 
-## Preperation
+## Preperation and considerations
 
-Before peforming any of the following steps make sure to have the service, sh, and yaml in the directory of your choice.  Preferably in /opt/PyNAT
+Before peforming any of the following steps make sure to have the service, sh, and yaml in the directory of your choice.  Preferably in /opt/PyNAT.
+
+For the future I would highly recommend making config.yaml work from the sd card.  This is also where the config file for AuxBox is stored.  Having everything located here allows the end users to easily update their machine with what ever configuration the wish.  I would even go as far as including the static IP of the AuxBox within the config.yaml.
 
 ---
 

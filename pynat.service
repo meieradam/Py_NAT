@@ -1,0 +1,10 @@
+[Unit]
+Description=Custom NAT rules
+After=network.target
+
+[Service]
+ExecStart=/path/to/pynat.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

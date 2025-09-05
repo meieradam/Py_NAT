@@ -1,0 +1,4 @@
+forward:
+  listen_port: 502
+  dest_ip: 10.10.1.2
+  dest_port: 503
